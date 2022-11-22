@@ -1,0 +1,75 @@
+/*CSS comments*/
+h3 {
+    font-size: 30px;
+    text-align: right;
+    color: red;
+}
+.nav {
+    list-style-type: none;
+    background-color: aquamarine;
+    text-align: center;
+}
+.nav li{
+    display: inline-block; 
+    padding: 20px;
+    font-size: 20px;
+}
+.bgcolor{
+    background-color: blueviolet;
+}
+#bgurl{
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+#bgurl:hover{
+    opacity: 1;
+}
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+#hover{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: width 1s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: green;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-contect {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-contect{
+    display: block;
+}
+#text{
+    background-color: blanchedalmond;
+    border: 10px solid lime;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+}
+#text1{
+    background-color: blanchedalmond;
+    border: 10px solid lime;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+    width: 480px;
+    float: left;
+}
